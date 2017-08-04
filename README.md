@@ -4,8 +4,7 @@ This repo implements methods for extracting features from text, that I have used
   * A statistical n-gram language modeling approach, that estimates the conditional probability of a sentence in a class. 
  
 # Toy Example
-A toy example is provided, to play around with the provided approaches. 
-The dataset used is a randomly selected subset of the "banknote authentication" dataset available at the [UCI Machine learning repository](https://archive.ics.uci.edu/ml/datasets/banknote+authentication).
+A toy example is provided, to play around with the provided approaches. The dataset used is a randomly selected subset of the "SMS Spam Collection" dataset available at the [UCI Machine learning repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection).
 
 
 
