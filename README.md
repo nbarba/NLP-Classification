@@ -1,5 +1,5 @@
 # NLP-Classification
-This repo implements methods for extracting features from text. Two approaches are implemented: 
+This repo implements methods for extracting features from text, that I have used in my research for user classification tasks. Two approaches are implemented: 
   * One based on word-embeddings, which [1] describes as a baseline.
   * A statistical n-gram language modeling approach, that estimates the conditional probability of a sentence in a class. 
  
