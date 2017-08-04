@@ -1,6 +1,6 @@
 # NLP-Classification
 This repo implements methods for extracting features from text, that I have used in my research for user input classification tasks. Two approaches are implemented: 
-  * One based on word-embeddings, which [1] describes as a baseline.
+  * One based on word-embeddings, which is described as part of the baseline methods in [1].
   * A statistical n-gram language modeling approach, that estimates the conditional probability of a sentence in a class. 
  
 # API Referernce
