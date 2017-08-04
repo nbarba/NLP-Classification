@@ -171,10 +171,7 @@ def main():
 
 
 	if not os.path.exists(inputfile):
-		print "Word embeddings file missing, downloading...."
-		url = "https://www.dropbox.com/s/rzstu86nclldogd/annotation_withRunNumber.jar?dl=1" 
-		response = urllib2.urlopen(url)
-		html = response.read()
+		print "Word embeddings file missing...."
 		exit()
 
 	feature_gen=EmbeddingFeaturesGenerator(inputfile);
