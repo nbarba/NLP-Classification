@@ -102,7 +102,7 @@ class EmbeddingFeaturesGenerator:
 def main(train_set,test_set,embeddings_file):
 	
 	if not os.path.exists(embeddings_file):
-		print "Download pre-trained word embeddings...."
+		print "Downloading pre-trained word embeddings...."
 		os.system('wget https://www.dropbox.com/s/h87tstu4awtvgew/wiki_embeddings.txt')
 
 	feature_gen=EmbeddingFeaturesGenerator(embeddings_file);
@@ -134,4 +134,5 @@ if __name__ == "__main__":
 	parser.add_argument('--test_set', metavar='path', required=True, help='File containing sentences to be used for testing')
 	parser.add_argument('--embeddings_file', metavar='path', required=False, help='Text file containing pre-trained word embeddings')
 	args = parser.parse_args()
+	if ()
 	main(train_set=args.train_set,test_set=args.test_set,embeddings_file=args.embeddings_file)
