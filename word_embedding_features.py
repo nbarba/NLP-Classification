@@ -50,13 +50,13 @@ class EmbeddingFeaturesGenerator:
 
 	def get_embeddings_vector(self,word):
 		'''
-		Method to retrieve the work embedding vector for a specific word  
+		Method to retrieve a work embedding vector for a specific word  
     	'''
 		return self.__embeddings.loc[self.__embeddings['word'] == word, self.__embeddings.dtypes == float].as_matrix();
 
 	def get_embeddings_representation(self,sentence):
 		'''
-		Method that returns the word embedding representation (i.e. features) for the input sentence.
+		Method that returns a word embedding representation (i.e. features) for the input sentence.
     	'''
 		words=sentence.split();	
 
