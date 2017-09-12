@@ -55,6 +55,9 @@ class EmbeddingFeaturesGenerator:
 		return self.__embeddings.loc[self.__embeddings['word'] == word, self.__embeddings.dtypes == float].as_matrix();
 
 	def get_embeddings_representation(self,sentence):
+		'''
+		Method that returns the word embedding representation (i.e. features) for the input sentence.
+    	'''
 		words=sentence.split();	
 
 		arr = np.empty(shape=[0, self.__embedding_size])
@@ -82,7 +85,7 @@ class EmbeddingFeaturesGenerator:
 
 	def extract_features(self,filename):
 		'''
-		Method that generates a word embedding representation (i.e. features) for the input file.
+		Method that generates the word embedding representation (i.e. features) for the input file.
     	'''
 
 		if self._verbose:
